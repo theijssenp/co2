@@ -4,13 +4,21 @@
 Air Quality Sensor based on:
 ESP-8266
 MQ-135
+
+Replace ssid and password in the code with your own:
+
+const char* ssid = "ssid";
+const char* password = "password";
+
+The ESP hosts a site that builds a chart with de CO2 values that the sensor provides.
+You can find an example at https://airquality.hodc.nl/
 ```
 | Situation | PPM |
 | ----------- | ----------- |
-| Atmospheric CO2 Level | 400ppm |
-| Average indoor co2 | 350-450ppm |
-| Maxiumum acceptable co2| 1000ppm|
-| Dangerous co2 levels | >2000ppm |
+| Atmospheric CO2 Level | 400 |
+| Average indoor co2 | 350-450 |
+| Maxiumum acceptable co2| 1000|
+| Dangerous co2 levels | >2000 |
 
 ## End Points
 
